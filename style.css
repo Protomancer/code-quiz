@@ -1,3 +1,4 @@
+/*basic botton with a green background to signify the start of the quiz*/
 .container-one{
     position: absolute;
     left: 25%;
@@ -9,4 +10,28 @@
 }
 #riddle-button{
     background-color:yellowgreen;
+}
+/*just a way to postion where the scores are kept to make them visable*/
+.container-four{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+/*to style my attempt at a reset button.*/
+#gameReset{
+    position: absolute;
+    background-color: lightcoral;
+    left: 35%;
+    bottom: -200%;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+
 }
